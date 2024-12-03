@@ -44,7 +44,29 @@
 </header>
 
 <main>
-
+  <h1>Registrarse</h1>
+  <form action="registro.txt" method="post" enctype="multipart/form-data" name="registro" autocomplete="on">
+    <p>
+      Nombre completo: <input type="text" name="nombre" required></p>
+    <p>
+      Fecha de nacimiento: <input type="date" name="birthdate"></p>
+    <p>
+      Email: <input type="email" name="email_signin" required></p>
+    <p>
+      Contraseña: <input type="password" name="password_signin"></p>
+    <p>
+      Repetir contraseña: <input type="password" name="password_signin"></p>
+    <p>
+      Dirección: <input type="text" name="direccion"></p>
+    <p>
+      Página web: <input type="url" name="website"></p>
+    <p>
+      Foto: <input type="file" name="pfp"></p>
+    <p>
+      Biografía:<br /> <textarea name="bio" cols="7" rows="3"></textarea></p>
+    <button>Enviar</button>
+  </form>
+<br />
 </main>
 
 <footer>
