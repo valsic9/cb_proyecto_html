@@ -1,12 +1,13 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conquer Academy</title>
+  <title>Registrase | Conviértete en un desarrollador Full-Stack</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="Proyecto de HTML por valsic9.">
+  <meta name="description" content="¿Quieres aprender a programar desde 0? EN Conquer Academy te enseñamos 
+  todo lo que necesitas saber para convertirte en un programador.">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -24,64 +25,71 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#B9E5E8">
+  <meta name="theme-color" content="#ffffff">
 
   <link rel="manifest" href="site.webmanifest">
 </head>
 
 <body>
 <header>
-  <img src="logo.png" alt="logo" width="240" height="90">
-  <nav>
-      <a href="index.html">Home</a>
-      <a href="about_us.html">Quiénes somos</a>
-      <a href="cursos.html">Cursos</a>
-      <a href="blog.html">Blog</a>
-      <a href="registro.html">Registro</a>
-      <a href="login.html">Login</a>
-      <a href="contacto.html">Contacto</a>
-  </nav>
+  <figure>
+    <img src="img/logo.png" alt="logo" width="110px">  
+  </figure>
+<nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about_us.html">Quiénes somos</a></li>
+    <li><a href="cursos.html">Cursos</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li>Registrarse</li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+</nav>
 </header>
+<br />
 
 <main>
   <h1>Registrarse</h1>
-  <form action="registro.txt" method="post" enctype="multipart/form-data" name="registro" autocomplete="on">
+  <p>Forma parte de nuestra academia y conviértete en desarrollador Full-Stack</p>
+  <form action="" method="post" enctype="multipart/form-data" name="registro" autocomplete="on">
     <p>
-      Nombre completo: <input type="text" name="nombre" required></p>
+      <label for="nombre">Nombre completo:</label> 
+      <input type="text" name="nombre" required></p>
     <p>
-      Fecha de nacimiento: <input type="date" name="birthdate"></p>
+      <label for="birthdate">Fecha de nacimiento:</label> 
+      <input type="date" name="birthdate"></p>
     <p>
-      Email: <input type="email" name="email_signin" required></p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" required></p>
     <p>
-      Contraseña: <input type="password" name="password_signin"></p>
+      <label for="password">Contraseña:</label> 
+      <input type="password" name="password"></p>
     <p>
-      Repetir contraseña: <input type="password" name="password_signin"></p>
+      <label for="password2">Repetir contraseña:</label> 
+      <input type="password" name="password2"></p>
     <p>
-      Dirección: <input type="text" name="direccion"></p>
+      <label for="direccion">Dirección:</label> 
+      <input type="text" name="direccion"></p>
     <p>
-      Página web: <input type="url" name="website"></p>
+      <label for="website">Página web:</label> 
+      <input type="url" name="website"></p>
     <p>
-      Foto: <input type="file" name="pfp"></p>
+      <label for="pfp">Foto:</label> 
+      <input type="file" name="pfp"></p>
     <p>
-      Biografía:<br /> <textarea name="bio" cols="7" rows="3"></textarea></p>
-    <button>Enviar</button>
+      <label for="bio">Biografía:</label><br /> 
+      <textarea name="bio" cols="7" rows="3"></textarea></p>
+    <p><button>Enviar</button></p>
   </form>
 <br />
 </main>
 
+<br />
 <footer>
-<img src="logo.png" alt="logo" width="240" height="90">
-<p>Copyright © 2024 by valsic9</p>
-<nav>
-  <h3>Aviso Legal</h3>
-  <ul>
-    <li><a href="#">Términos y condiciones</a></li>
-    <li><a href="#">Política de privacidad</a></li>
-    <li><a href="#">Política de cookies</a></li>
-  </ul>
-</nav>
+<p>
+  <img src="img/logo.png" alt="logo" width=170px> Copyright 2024 by valsic9. <a href="aviso_legal.html"> Aviso Legal</a>
+</p>
 </footer>
-  
-  <script src="js/app.js"></script>
+
+<script src="js/app.js"></script>
 </body>
 </html>
